@@ -1,0 +1,22 @@
+.container{
+  width: 100%;
+  height: calc(100vh - 6rem);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2E97A7;
+  margin-top: 27rem;
+}
+
+.container img{
+  width: 100%;
+  height: calc(100vh - 6rem);
+  position: absolute;
+  z-index: -1;
+}
